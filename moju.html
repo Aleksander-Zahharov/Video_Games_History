@@ -49,6 +49,39 @@
 	Poor academic or professional performance<br>
 	Escapism and getting stuck in life
 	</article>
+	<hr>
+	<p><strong>In conclusion, we will be very happy if you share your opinion about this site</strong></p>
+	<script src="feedback.js"></script>
+		<h3>Feedback</h3>
+		<div id="questionsForm">
+		<form name="opros">
+		<p>Did you like this website?
+		<input type="radio" name="question1" value="1" id="q1a1"/><label for="q1a1">Yes</label>
+		<input type="radio" name="question1" value="0" id="q1a2"/><label for="q1a2">No</label></p>
+		<p>Have you learned something new?
+		<input type="radio" name="question2" value="1" id="q2a1"/><label for="q2a1">Yes</label>
+		<input type="radio" name="question2" value="0" id="q2a2"/><label for="q2a2">No</label></p>
+		<p>Have you got more interested in this topic?
+		<input type="radio" name="question3" value="1" id="q3a1"/><label for="q3a1">Yes</label>
+		<input type="radio" name="question3" value="0" id="q3a2"/><label for="q3a2">No</label></p>
+		<p>Did you have a good time exploring this site?
+		<input type="radio" name="question4" value="1" id="q4a1"/><label for="q4a1">Yes</label>
+		<input type="radio" name="question4" value="0" id="q4a2"/><label for="q4a2">No</label></p>
+		<p>
+		<input type="button" value="Submit" onClick="processForm(this.form)"/>
+		<input type="reset" value="Clean all"/>
+		</p>
+		</form>
+		</div>
+		<div id="results" style="display: none;">
+		<h3>Positive answers: <span id="score" style="font-size: 160%"></span></h3>
+		</div>
+		<div id="explain-negative" style="display: none;">
+		<p>Thanks for your feedback! It's a pity you didn't like our site</p>
+		</div>
+		<div id="explain-positive" style="display: none;">
+		<p>Thanks for your feedback! We are glad you liked our site</p>
+		</div>
 	</main>
 </body>
 </html>
