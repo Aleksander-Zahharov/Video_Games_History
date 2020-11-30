@@ -9,6 +9,7 @@ p {
 }
 
 body {
+	background: url (tic-tac-toe.png);
     font-family: cursive;
 }
 
