@@ -47,3 +47,12 @@ li {
 footer {
     text-align: center;
 }
+
+table {
+	border-spacing: 10px 20px;
+	margin: auto;
+}
+
+td {
+	text-align: center;
+}
