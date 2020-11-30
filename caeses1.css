@@ -1,0 +1,48 @@
+h1 { 
+    font-family: cursive; 
+    color: #ce0000;
+    font-size: 2.2em;
+}
+
+p {
+    font-family: cursive;
+}
+
+body {
+    font-family: cursive;
+}
+
+main {
+    text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a:hover {
+  color: #ff6666;
+}
+
+ul {
+    font-size: 1.0em;
+}
+
+ol {
+	margin-left: 0;
+	list-style-type: none;
+}
+li {
+    font-size: 1.0em
+}
+
+footer {
+    text-align: center;
+}
