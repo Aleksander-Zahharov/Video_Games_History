@@ -23,7 +23,7 @@ main {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  left: 5;
   overflow-x: hidden;
   padding-top: 10px;
 }
@@ -41,7 +41,7 @@ ol {
 	list-style-type: none;
 }
 li {
-    font-size: 1.0em
+    font-size: 0.9em
 }
 
 footer {
@@ -56,3 +56,7 @@ table {
 td {
 	text-align: center;
 }
+
+/*article {
+    font-family: Arial, Helvetica, sans-serif;
+} */
